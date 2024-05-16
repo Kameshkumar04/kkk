@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/', async (req: Request, res: Response) => {
   res.status(200).json({
-    message: 'Hello World!!'
+    message: 'Hello World'
   });
 });
 
@@ -20,4 +20,4 @@ const server = http.createServer(app);
 server.listen(port, () => {
   console.log(`API started at http://localhost:${port}`);
   
-}); 
+});
