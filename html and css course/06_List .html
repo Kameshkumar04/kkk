@@ -1,0 +1,44 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        ul li{
+            /* list-style-type:lower-greek;
+            list-style-image: url(307799.jpg); */
+            list-style-type:circle;
+            list-style-type:decimal-leading-zero;
+            list-style-type:lower-alpha;
+            list-style-position:insert;
+            list-style-position:outside;
+
+        }
+        ul li::before{
+            content:'' ;
+            display: inline-block;
+            margin-right: 10px;
+            height: 10px;
+            width:10px;
+            background-image:url(307799.jpg);
+            background-size: cover;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>list Propertiesin Html</h1>
+<ul>
+    <li>Home</li>
+    <li>Product</li>
+    <li>Blog</li>
+    <li>Download</li>
+    <li>Contact</li>
+</ul>
+    
+</body>
+</html>
