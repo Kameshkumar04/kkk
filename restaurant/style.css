@@ -1,0 +1,32 @@
+#outter-box{
+    background-color: grey;
+    width:800px;
+    height:500px;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+
+}
+.box{
+    width:150px;
+    height:150px;
+    
+}
+#one{
+    background-color:red ;
+  
+    
+}
+#two{
+    background-color:orange ;
+   
+    
+}
+#three{
+    background-color:greenyellow ;
+}
+
+#four{
+    background-color:brown ;
+    
+}
